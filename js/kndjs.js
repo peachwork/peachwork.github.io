@@ -70,7 +70,7 @@ class Snow {
 new Snow();
 var stop = false;
 function show_runtime() {
-  var newDay = '2025/1/29 00:00:00';
+  var newDay = '2025/1/1 00:00:00';
   var countDate = new Date(newDay);
   var now = new Date().getTime();
   gap = countDate - now;
